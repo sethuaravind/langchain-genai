@@ -1,4 +1,4 @@
 import streamlit as st
 
 
-st.title("Langchain")
+st.title("Langchain Chat")
