@@ -15,4 +15,5 @@ name_of_vector = st.text_input("Vector_name")
 
 if pdf_to_vectorize:
     if st.button('Vectorize'):
-        vectorize_pdf('data/pdf/as_a_man_thinketh.pdf', pdf_to_vectorize if not name_of_vector else name_of_vector)
+        vectorize_pdf(pdf_path, pdf_to_vectorize if not name_of_vector else name_of_vector)
+        st.badge('Successfully vectorized')
